@@ -1,5 +1,6 @@
 function testFun(obj) {
-    return obj.name;
+    obj.year = 29;
+    return obj.name+obj.year;
 }
 
-console.log(testFun({name:'z'}));
+console.log(testFun({name:'z2'}));
